@@ -1,0 +1,361 @@
+*{
+	margin: 0;
+	padding: 0;
+	boxing-sizing: border-box;
+}
+                               /* Banner Info */
+
+#banner{
+	background: url(backgroundphoto.webp);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+
+.body{
+	background: linear-gradient(#2b1005, #7597be);
+}
+
+
+.header{
+	height: 100%;
+	width: cover;
+	padding: 0 8%;
+	background: #080008;
+	position: relative;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 180px;
+}
+
+.nav-links{
+	padding: 28px 0;
+}
+
+.nav-links li{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.nav-links li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 0;
+	position: relative;
+}
+
+.nav-links li a::after{
+	content: '';
+	background: #f8df87;
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition width: 0.5s;
+}
+
+.nav-links li a:hover::after{
+	width: 0;
+	
+}
+
+.nav-links ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: green;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.nav-links ul li:hover .sub-menu-1{
+	display: block;
+	margin: 10px;
+}
+
+
+
+.body{
+	height: 100%;
+	width: 100%;
+	padding: 0 8%;
+	background: #080008;
+	position: relative;
+}
+                                /* Home Page */
+
+.banner-text{
+	text-align: center;
+	color: white;
+	padding-top: 180px;
+}
+
+.banner-text h1{
+	font-size: 130px;
+}
+
+.banner-text p{
+	font-size: 20px;
+	font-style: italic;
+}
+                                             /* The last button on the first page */
+
+.last-button{
+    width: 500px;
+    padding-top: 100px;
+    height: 100px;
+    border: 2px solid grey;
+
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 0.5vw;;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.last-button:hover{
+  background: #2d2d2d;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+
+
+
+                                /* Content Page */
+
+
+
+#feature{
+	background: linear-gradient(rgba(244, 194, 194),#F4C2C2),url(image/white-background.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+	width: 100%;
+	padding: 70px 0;
+
+}
+
+.tittle-text{
+	text-align: center;
+	padding-bottom: 60px;
+	
+}
+
+.form-box{
+	width: 80px;
+	height: 20px;
+	position: relative;
+	margin: 6% auto;
+	padding: 5xp;
+}
+
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	border-radius: 30px;
+}
+
+
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	right: 0%;
+
+}
+
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: whitesmoke;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+}
+
+#register{
+	left: 86px;
+	bottom: 260px;
+
+}
+                               /* About Us Page */
+
+#banner-2{
+	background: linear-gradient(rgba(244,194,194),whitesmoke),url(image/image.img.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+}
+
+.banner-2-text{
+	width: 60%;
+	padding-top: 150px;
+	margin: auto;
+	text-align: center;
+	font-size:20px;
+	color: whitesmoke;
+	z-index: 2;
+}
+
+.banner-2-text{
+	line-height: 28px;
+	color: black;
+}
+
+/* Credit to https://github.com/BraveCoderYT/Chatbot-design-using-HTML-CSS/blob/main/style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.wrapper {
+    width: cover;
+}
+
+.wrapper .title {
+    background: #F4C2C2;
+    color: white;
+    line-height: 2.5;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.wrapper .box {
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.wrapper .box .item {
+    display: flex;
+    float: left;
+    margin: 10px 0;
+}
+
+.wrapper .box .item .icon {
+    background: #f8df87;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.wrapper .box .item .msg {
+    background: #f8df87;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.wrapper .box .item .msg p {
+    padding: 10px;
+}
+
+.wrapper .box .item.right {
+    float: right;
+}
+
+.wrapper .box .item.right .msg {
+    background: #efefef;
+    color: #333;
+}
+
+.wrapper .typing-area {
+    width: 100%;
+    background: #efefef;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.wrapper .typing-area .input-field {
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .typing-area .input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    padding-right: 70px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s all ease;
+}
+
+.wrapper .typing-area .input-field input:focus {
+    border-color: #007bff;
+}
+
+.wrapper .typing-area .input-field button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #007bff;
+    outline: none;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s all ease;
+}
+
+.wrapper .typing-area .input-field button:hover {
+    background: #007bff;
+    color: white;
+}
+
+.wrapper .typing-area .input-field input:valid ~ button {
+    opacity: 1;
+    pointer-events: auto;
+}
